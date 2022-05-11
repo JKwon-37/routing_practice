@@ -16,7 +16,7 @@ function App() {
         <Route path="/" element={<h1>Default</h1>} />
         <Route path="/home" element={<h1>Welcome!</h1>}/>
         <Route path="/:string" element={<Hello/>}/>
-        <Route path="/:string/:color1/:color2" element={<h1 style={{color:'blue', backgroundColor:'red'}}>Word is: Hello</h1>}/>
+        <Route path="/:string/:color1/:color2" element={<Hello/>}/>
       </Routes>
   </div>
 
